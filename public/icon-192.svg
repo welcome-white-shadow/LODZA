@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" width="192" height="192">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B1F3A" />
+      <stop offset="100%" stop-color="#155EEF" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF8A00" />
+      <stop offset="100%" stop-color="#FF5500" />
+    </linearGradient>
+  </defs>
+  <!-- Background with rounded corners -->
+  <rect width="192" height="192" rx="40" fill="url(#bgGrad)" />
+  <!-- Truck Body -->
+  <g transform="translate(28, 48)">
+    <!-- Main container -->
+    <rect x="0" y="16" width="76" height="52" rx="8" fill="#FFFFFF" />
+    <rect x="76" y="32" width="36" height="36" rx="8" fill="#FFFFFF" />
+    <!-- Window -->
+    <rect x="84" y="38" width="22" height="16" rx="4" fill="#0B1F3A" opacity="0.85" />
+    <!-- Dynamic Lightning Stripe -->
+    <path d="M12 42 L42 42 L34 58 L62 38 L38 38 L46 24 Z" fill="url(#accentGrad)" />
+    <!-- Wheels -->
+    <circle cx="28" cy="72" r="14" fill="#0B1F3A" stroke="#FFFFFF" stroke-width="4" />
+    <circle cx="28" cy="72" r="6" fill="#FF8A00" />
+    <circle cx="94" cy="72" r="14" fill="#0B1F3A" stroke="#FFFFFF" stroke-width="4" />
+    <circle cx="94" cy="72" r="6" fill="#FF8A00" />
+  </g>
+  <!-- Brand text badge -->
+  <text x="96" y="156" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="20" fill="#FFFFFF" text-anchor="middle" letter-spacing="3">LODZA</text>
+</svg>

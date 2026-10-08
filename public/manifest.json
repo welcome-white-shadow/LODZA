@@ -1,0 +1,33 @@
+{
+  "id": "/",
+  "name": "LODZA - Move. Deliver. Done.",
+  "short_name": "LODZA",
+  "description": "Hyperlocal on-demand goods delivery & logistics platform connecting customers with verified driver partners across India.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0B1F3A",
+  "theme_color": "#155EEF",
+  "categories": ["logistics", "business", "transportation"],
+  "icons": [
+    {
+      "src": "/icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-maskable.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ]
+}

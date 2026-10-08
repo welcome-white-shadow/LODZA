@@ -1,0 +1,8 @@
+{
+  "name": "Remix LODZA - Move. Deliver. Done.",
+  "description": "Hyperlocal on-demand goods delivery \u0026 logistics platform connecting customers with verified driver partners across India.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad512" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B1F3A" />
+      <stop offset="100%" stop-color="#155EEF" />
+    </linearGradient>
+    <linearGradient id="accentGrad512" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF8A00" />
+      <stop offset="100%" stop-color="#FF5500" />
+    </linearGradient>
+  </defs>
+  <!-- Background with rounded corners -->
+  <rect width="512" height="512" rx="100" fill="url(#bgGrad512)" />
+  <!-- Truck Graphics -->
+  <g transform="translate(76, 128)">
+    <!-- Main freight cargo container -->
+    <rect x="0" y="42" width="200" height="140" rx="20" fill="#FFFFFF" />
+    <rect x="200" y="84" width="96" height="98" rx="20" fill="#FFFFFF" />
+    <!-- Cabin Window -->
+    <rect x="222" y="100" width="58" height="42" rx="10" fill="#0B1F3A" opacity="0.85" />
+    <!-- Dynamic Lightning Stripe -->
+    <path d="M32 110 L110 110 L90 152 L164 100 L102 100 L122 64 Z" fill="url(#accentGrad512)" />
+    <!-- Wheels -->
+    <circle cx="74" cy="190" r="36" fill="#0B1F3A" stroke="#FFFFFF" stroke-width="10" />
+    <circle cx="74" cy="190" r="16" fill="#FF8A00" />
+    <circle cx="248" cy="190" r="36" fill="#0B1F3A" stroke="#FFFFFF" stroke-width="10" />
+    <circle cx="248" cy="190" r="16" fill="#FF8A00" />
+  </g>
+  <!-- Brand text badge -->
+  <text x="256" y="415" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="52" fill="#FFFFFF" text-anchor="middle" letter-spacing="7">LODZA</text>
+  <text x="256" y="455" font-family="system-ui, -apple-system, sans-serif" font-weight="600" font-size="20" fill="#93C5FD" text-anchor="middle" letter-spacing="3">MOVE • DELIVER • DONE</text>
+</svg>
